@@ -1,0 +1,23 @@
+.iphone-slider{width:100%;height:58px;line-height:23px;position:relative;}.iphone-slider input,input{-webkit-appearance:none;width:100%;background:#ddd;padding:3px;border:1px solid #525252;-webkit-border-radius:15px;border-radius:15px;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#000000),color-stop(1,#222222)   );}.iphone-slider input::-webkit-slider-thumb,input::-webkit-slider-thumb{-webkit-appearance:none;z-index:100;position:relative;width:68px;height:44px;-webkit-border-radius:10px;border-radius:10px;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAYCAYAAAB0kZQKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASJJREFUeNpi7OnpYaAC0AXiF0D8mhzNTAzUASBHnAdim4F0BAhIA/EBIC4aSEeAADMQ9wLxRiDmHyhHwIAfNHqMiXZEcXExGJMCiNCjCMTHgDiTkFmM////p4rXe3t78Rm0DIjTgfgLNkkWoGZQij7MQFsQBY2aICC+Rq80gQ2oA/EZIE4YSEeAACcQzwfimVD2gDgCBtKgiVZlIB0BAgbQbBwykI5A5I4BtPsaNLfcHKiQWADEJiAHDERIfAfiLKgjBiQ67kCD/zK2NAFqjMyi0AJQVnPCI78GiBNxFttQF6ZToVjG5ohfoLoOiKcMVO54BA3+swPVntgKxIbEOIAWjvgLxJVA7APE7waisHoKxBFAfGSgSszL0MLnBTmaAQIMAKg/OsrT7JG8AAAAAElFTkSuQmCC'),-webkit-gradient(linear,left top,left bottom,color-stop(0,#fefefe),color-stop(0.49,#dddddd),color-stop(0.51,#d1d1d1),color-stop(1,#a1a1a1)   );background-repeat:no-repeat;background-position:50%;}.iphone-slider span{position:absolute;z-index:99;top:30%;left:37%;font-family:"Helvetica Neue",Helvetica,sans;font-size:24px;color:white;cursor:default;-webkit-user-select:none;-webkit-mask-image:-webkit-gradient(linear,left top,right top,color-stop(0,rgba(0,0,0,0.3)),color-stop(0.45,rgba(0,0,0,0.3)),color-stop(0.5,rgba(0,0,0,1)),color-stop(0.55,rgba(0,0,0,0.3)),color-stop(1,rgba(0,0,0,0.3))   );-webkit-mask-size:1000px;-webkit-mask-repeat:no-repeat;-webkit-animation-timing-function:ease-in-out;-webkit-animation:text-spotlight 4s infinite;}@-webkit-keyframes text-spotlight{0%{-webkit-mask-position:-800px;}100%{-webkit-mask-position:0px;}}
+
+@media screen and (max-width: 46em) {
+  .columns.text-100 {
+    line-height: 1.1em;
+    font-weight: normal;
+    height: 106px;
+    overflow: hidden;
+  }
+
+  .columns.text-100 h1.title {
+    font-size: 1em;
+    margin: 0 !important;
+  }
+
+  .row.text-block {
+  	margin-bottom: 0;
+  }
+
+  #game-container.row {
+  	margin-bottom: 0;
+  }
+}

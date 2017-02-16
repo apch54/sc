@@ -1,0 +1,228 @@
+.backgroundGame {
+	width: 100%;
+}
+
+body {
+	padding: 0px !important;
+}
+
+#intersticiel {
+	z-index: 1;
+	position: fixed;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+#checkBanners {
+  display: block;
+  width: 100%;
+  position: fixed;
+  z-index: 100000;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#checkBanners a {
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+body {
+  background-color: #f2edf0;
+  padding: 30px;
+  background-position: center;
+  background-size: 100% auto;
+  max-width: 728px;
+  margin: auto;
+  color: white;
+
+}
+
+.ads300_250 {
+  width: 300px;
+  margin: auto;
+}
+
+.ads320_250, .ads320_50, .ads320_100 {
+  width: 320px;
+  margin: auto;
+}
+
+.ads728_90 {
+  width: 728px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 12px;
+}
+
+@media screen and (orientation:landscape) and (max-width: 46em) {
+  #game-container.row {
+    width: 60% !important;
+  }
+}
+
+#game-container canvas {
+  touch-action: inherit !important;
+}
+
+
+/* fullscreen slider */
+
+
+
+/*menubutton*/
+a.button.expand.item-menu {
+  border-radius: 10px;
+  border-color: rgb(164, 247, 255) ;
+  background-image: -moz-linear-gradient( -90deg, rgb(243, 170, 6) 0%, rgb(139, 82, 27) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(243, 170, 6) 0%, rgb(139, 82, 27) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(243, 170, 6) 0%, rgb(139, 82, 27) 100%);
+  border-width: 2px;
+  margin-top: 30px;
+
+-webkit-box-shadow: inset 3px 3px 22px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 3px 3px 22px 2px rgba(0,0,0,0.75);
+box-shadow: inset 3px 3px 22px 2px rgba(0,0,0,0.75);
+}
+
+
+.text-block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  padding: 15px;
+
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+
+  border: 1px solid white;
+  font-size:0.7em;
+}
+
+.text-block h1 {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rowTextHaut .text-block {
+    max-height: 164px;
+    overflow: hidden;
+}
+
+.textHautRow .text-block {
+    max-height: 268px;
+    overflow: hidden;
+}
+
+.ads {
+  font-size: 0.7em;
+}
+
+.autopromo .header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom:10px;
+}
+
+.autopromo .header .logoSection {
+    display: flex;
+}
+
+.autopromo .header .titleSection {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.autopromo .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.autopromo .content .textSection {
+    display: flex;
+    flex: 1;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+.autopromo .content .actionSection {
+    display: flex;
+    align-items: baseline;
+}
+
+.autopromo .content .actionSection .playnow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding:15px 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-left: 15px;
+
+    -webkit-box-shadow: inset 3px 3px 22px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 3px 3px 22px 2px rgba(0,0,0,0.75);
+    box-shadow: inset 3px 3px 22px 2px rgba(0,0,0,0.75);
+}
+
+.autopromo .content .actionSection .playnow div{
+    flex: 1;
+    margin-right:5px;
+    font-size: 0.6em;
+    font-weight:bold;
+}
+
+.autopromo .content .actionSection .playnow .fa{
+    font-size: 1.2em;
+}
+
+#logo img {
+  margin: auto;
+}
+
+#logotxt img {
+  margin: auto;
+}
+#playwinshare {
+  text-align: center;
+}
+
+#playwinshare img {
+  margin: auto;
+}
+
+.screenshot {
+    width: 100%;
+    -webkit-box-shadow: inset 3px 3px 22px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 3px 3px 22px 2px rgba(0,0,0,0.75);
+    box-shadow: inset 3px 3px 22px 2px rgba(0,0,0,0.75);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.playnow_btn {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  border-width:4px;
+  height: 52px;
+}
